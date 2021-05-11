@@ -1,0 +1,12 @@
+/* basic/initial styles */
+@import './basic/reset.css';
+@import './basic/layout.css';
+
+/* component styles */
+@import './components/button.css';
+@import './components/clock.css';
+@import './components/form.css';
+@import './components/mouse.css';
+@import './components/progress-bar.css';
+
+/* custom style for homepage goes below this comment */
