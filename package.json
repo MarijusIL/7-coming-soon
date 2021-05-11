@@ -1,0 +1,22 @@
+{
+  "name": "7-coming-soon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarijusIL/7-coming-soon.git"
+  },
+  "author": "Marijus Ilaras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarijusIL/7-coming-soon/issues"
+  },
+  "homepage": "https://github.com/MarijusIL/7-coming-soon#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
