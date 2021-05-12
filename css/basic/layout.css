@@ -22,14 +22,12 @@
     /* display: inline-block; */
     width: 50%;
     float: left;
-    background-color: red;
 }
 
 .container .right-column {
     /* display: inline-block; */
     float: right;
     width: 45%;
-    background-color: red;
 }
 
 @media (max-width: 1100px) {

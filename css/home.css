@@ -55,6 +55,28 @@
 
 /* MAIN */
 
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--color-dark);
+}
+
+main p {
+    color: var(--color-grey);
+    line-height: 1.7em;
+    font-size: 17px;
+}
+
+main p a {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
 
 /* FOOTER */
 
