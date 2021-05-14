@@ -2,11 +2,11 @@ import { formatNumber } from './formatNumber.js';
 import { calcDeadline } from './calcDeadline.js';
 import { updateClock } from './updateClock.js';
 
-function renderClock(selector, targetDate) {
+function renderClock(pomidoras, targetDate) {
   // validation
 
   // logic
-  const DOM = document.querySelector(selector);
+  const DOM = document.querySelector(pomidoras);
   const fps = 30;
 
   const time = calcDeadline(targetDate);
