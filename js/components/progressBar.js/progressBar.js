@@ -7,12 +7,14 @@ function progressBar(selector, data) {
 
   for (const progress of data) {
     HTML += `<div class="progress-bar">
-                <div class="top"></div>
+                <div class="top">
                     <div class="label">${progress.label}</div>
                     <div class="value">${progress.value}</div>
                 </div>
                 <div class="bottom">
-                    <div class="progress" style="width: ${progress.value}%"></div>
+                    <div class="progress" style="width: ${progress.value}%">
+                      <div class="bar"></div>
+                    </div>
                 </div>
             </div>`;
   }
