@@ -1,21 +1,18 @@
 function socials(selector, data) {
-  // validation
+    // validation
 
-  // logic
-  const DOM = document.querySelector(selector);
+    // logic
+    const DOM = document.querySelector(selector);
+    let HTML = '';
 
-  let HTML = '';
+    for (const social of data) {
+        if (social.active) {
+            HTML += `<a href="${social.href}" target="_blank" class="social fa fa-${social.icon}"></a>`;
+        }
+    }
 
-  for(const social of data) {
-      HTML += `<a href= "${social.href}" target="_blank" class="fa fa-${social.icon}"></a>`;
-  }
-
-//   for (const { href, icon } of data) {
-//     HTML += `<a href= "${href}" target="_blank" class="fa fa-${icon}"></a>`;
-//   }
-
-  // result return
-  DOM.innerHTML = HTML;
+    // result return
+    DOM.innerHTML += HTML;
 }
 
-export { socials };
+export { socials }
